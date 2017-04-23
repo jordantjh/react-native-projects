@@ -1,12 +1,12 @@
 import React from 'react';
-import { AppRegistry, View } from 'react-native';
+import {Text, View, AppRegistry} from 'react-native';
 import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
 const App = () => {
-  return(
+  return (
     <View>
-      <Header headerText={'Album'}/>
+      <Header headerText={'Albums'} />
       <AlbumList/>
     </View>
   );
